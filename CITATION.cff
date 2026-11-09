@@ -9,7 +9,7 @@ authors:
 version: 0.1.0
 date-released: 2026-09-20
 license: Apache-2.0
-repository-code: https://github.com/osiris-dnalang/bridge
+repository-code: https://github.com/quantum-osiris/bridge
 abstract: >-
   Evolutionary controller (organism_sim LCS agent) over dnalang-core's dynamical-
   decoupling search space, evaluated on Aer under quasi-static dephasing and ZZ

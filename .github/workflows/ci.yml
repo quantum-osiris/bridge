@@ -12,11 +12,11 @@ jobs:
       - uses: actions/checkout@v4
         with: { path: bridge }
       - uses: actions/checkout@v4
-        with: { repository: devinphillipdavis/organism_sim, path: organism_sim }
+        with: { repository: quantum-osiris/organism_sim, path: organism_sim }
       - uses: actions/checkout@v4
-        with: { repository: devinphillipdavis/dnalang-core, path: dnalang-core }
+        with: { repository: quantum-osiris/dnalang-core, path: dnalang-core }
       - uses: actions/checkout@v4
-        with: { repository: devinphillipdavis/osiris-governance, path: osiris-governance }
+        with: { repository: quantum-osiris/osiris-governance, path: osiris-governance }
       - uses: actions/setup-python@v5
         with: { python-version: "${{ matrix.python-version }}" }
       - run: pip install -e organism_sim -e "dnalang-core[ibm]" -e osiris-governance -e "bridge[dev,governance]"
